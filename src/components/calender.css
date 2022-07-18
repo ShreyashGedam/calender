@@ -1,0 +1,50 @@
+.container 
+{
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(7,1fr);
+    /* border: 1px solid black; */
+    grid-gap: 10px;
+    width: 450px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.main
+{
+    margin : auto ; 
+    border : 1px solid  grey;
+    width : 500px;   
+}
+
+.selected
+{
+    background-color: red;
+}
+
+.today {
+    background-color: cadetblue;
+}
+
+.header
+{
+    border: 1px solid grey;
+    background-color: rgb(37, 169, 169);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 22px;
+    display: flex;
+}
+
+.day-names
+{
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(7,1fr);
+    width: 450px;
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+    color: blue;
+}
